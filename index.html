@@ -31,6 +31,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             });
         });
     </script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- start-smoth-scrolling -->
 </head>
 
@@ -57,7 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="clearfix"></div>
         </div>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="navbar-header navbar-left">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -407,6 +408,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
+
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.agile-header', { duration: 1500, origin: 'top', scale: 1, container: '.header' });
+    sr.reveal('.navbar', { duration: 1500, origin: 'bottom', scale: 1, delay: 500, distance: '50px' });
+    sr.reveal('.w3ls_head', {duration: 1500, origin: 'top', scale: 1, reset: true});
+    sr.reveal('.w3ls_head + p', { duration: 1500, origin: 'bottom', reset: true });
+    sr.reveal('.chrt_grid', { duration: 1500, origin: 'bottom', reset: true }, 50);
+</script>
+
 <script type="text/javascript">
     $(document).ready(function() {
         /*

@@ -1,3 +1,6 @@
+.navbar{
+    margin-top: 50px;
+}
 .header{
     top: 0;
     left: 50%;
@@ -28,15 +31,19 @@
     height: 100%;
     background: rgba(0,0,0,0.5);
 }
+.flexslider .slides li{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.flexslider .slides li img{
+    height: 100%;
+    width: auto;
+}
 .flexslider .slides li div.caption{
     z-index: 99999;
     width: 100%;
-    top: 50%;
-    -webkit-transform: translateY(-75%);
-    -moz-transform: translateY(-75%);
-    -ms-transform: translateY(-75%);
-    -o-transform: translateY(-75%);
-    transform: translateY(-75%);
+    top: 25%;
     text-shadow: 1px 1px 1px #000;
     position: absolute;
     color: white;
