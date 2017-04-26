@@ -123,7 +123,7 @@ nav.navbar.navbar-default {
 	-ms-transform: rotate(35deg); --
 }*/
 .navbar-brand span {
-    color:#00ffbe;
+    color:#FFCF15;
 	letter-spacing: 15px;
 }
 .agile_short_dropdown {
@@ -342,7 +342,7 @@ nav.navbar.navbar-default {
     margin: 0 auto;
     text-align: center;
     position: relative;
-    border: 2px solid #FFCF15;
+    border: 2px solid #FF5722;
 }
 .chrt_grid .icon img {
   position: relative;
@@ -354,7 +354,7 @@ nav.navbar.navbar-default {
   width: 102%;
   height: 102%;
   border-radius: 50%;
-  background: #FFCF15;
+  background: #FF5722;
   position: absolute;
   top: -1px;
   left: -1px;
@@ -414,7 +414,7 @@ nav.navbar.navbar-default {
     font-size: 20px;
     line-height: 32px;
     font-weight: 600;
-    color: #FFCF15;
+    color: #FF5722;
     letter-spacing: 2px;
 }
 .banner-grid1 p {
@@ -524,7 +524,7 @@ p.w3l {
     border-radius: 50%;
     line-height: 60px;
     text-align: center;
-    background: #FFCF15;
+    background: #FF5722;
     color: #fff;
 }
 .what-top1 {
@@ -532,19 +532,36 @@ p.w3l {
 }
 .w3ls_head {
     font-size: 36px;
-    color: #FFCF15;
+    color: #FF5722;
     font-weight: 600;
     margin-bottom: 20px;
     letter-spacing: 4px;
     text-transform: uppercase;
     text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+.w3ls_head:after{
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #FF5722;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 .what-grid {
     padding-right: 130px;
 }
 .what-agile-info {
     margin-top: 30px;
-    border-left: 3px solid #FFCF15;
+    border-left: 3px solid #FF5722;
     padding: 0 0px 0 20px;
 }
 p.w3agile {
@@ -581,7 +598,7 @@ p.w3agile {
     text-transform: capitalize;
 }
 .footer li a:hover{
-    color: #FFCF15;
+    color: #FF5722;
 }
 .newsletter {
     position: relative;
@@ -608,7 +625,7 @@ p.w3agile {
 	background-repeat: no-repeat;
 	background-position: center;
 	position: absolute;
-	background-color: #FFCF15;
+	background-color: #FF5722;
 	top: 0;
 	right: 0;
 	outline:none;
@@ -628,7 +645,7 @@ p.w3agile {
 }
 .w3ls-social-icons i:hover,.w3ls-social i:hover {
 	background: transparent;
-	background:#FFCF15;
+	background:#FF5722;
 	color:#fff;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -666,7 +683,7 @@ p.w3agile {
 }
 .copy-right-agile p a {
     text-decoration: none;
-    color: #FFCF15;
+    color: #FF5722;
 }
 .copy-right-agile p a:hover{
     text-decoration: none;
@@ -1353,7 +1370,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 	transition:0.5s all;
 }
 .contact-right-w3-agile input[type="text"]:hover {
-	border-color:#FFCF15;
+	border-color:#FF5722;
 	-webkit-transition:0.5s all;
 	-o-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -1379,7 +1396,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 	transition:0.5s all;
 }
 .contact-right-w3-agile textarea:hover {
-	border-color:#FFCF15;
+	border-color:#FF5722;
 	-webkit-transition:0.5s all;
 	-o-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -1403,8 +1420,8 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 }
 .contact-right-w3-agile form input[type="submit"]:hover {
 	color:#fff;
-	background:#FFCF15;
-	border: 2px solid #FFCF15;
+	background:#FF5722;
+	border: 2px solid #FF5722;
 	-webkit-transition:0.5s all;
 	-o-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -1441,8 +1458,8 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 	box-shadow: 0px 4px 5px #2285b9;
 }
 .agile_services_grid:hover .agileits_w3layouts_service_grid{
-	background:#FFCF15;
-	box-shadow:0px 4px 5px #FFCF15;
+	background:#FF5722;
+	box-shadow:0px 4px 5px #FF5722;
 }
 .w3_agileits_service_grid{
     border: 4px double #fff;
@@ -1465,7 +1482,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 .agileits_w3layouts_service_grid span{
 	width: 5px;
     height: 5px;
-    background:#FFCF15;
+    background:#FF5722;
     display: block;
     margin: 0 auto;
     border-radius: 25px;
@@ -1503,7 +1520,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 	outline:none;
 }
 .wthree_more a:hover{
-	border-color:#FFCF15;
+	border-color:#FF5722;
 }
 .services {
     padding: 5em 0;
@@ -1538,7 +1555,7 @@ p.w3layouts_para {
     color: #fff;
 }
 .services-bottom h3 i{
-	color:#FFCF15;
+	color:#FF5722;
 	padding-right:1em;
 }
 /*-- //services-bottom --*/
@@ -1601,7 +1618,7 @@ p.w3layouts_para {
   left: 0;
   right: 0;
   bottom: 0;
-  background:#FFCF15;
+  background:#FF5722;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
@@ -1754,7 +1771,7 @@ ul.social-icons li {
 
 /* facebook */
 .icon-border.facebook::before {
-	box-shadow:inset 0 0 0 48px #FFCF15;
+	box-shadow:inset 0 0 0 48px #FF5722;
 }
 
 .icon-border.facebook:hover::before {
@@ -1770,7 +1787,7 @@ ul.social-icons li {
 
 /* twitter */
 .icon-border.twitter::before {
-	box-shadow:inset 0 0 0 48px #FFCF15;
+	box-shadow:inset 0 0 0 48px #FF5722;
 }
 
 .icon-border.twitter:hover::before {
@@ -1786,7 +1803,7 @@ ul.social-icons li {
 
 /* instagram */
 .icon-border.instagram::before {
-	box-shadow: inset 0 0 0 48px #FFCF15;
+	box-shadow: inset 0 0 0 48px #FF5722;
 }
 
 .icon-border.instagram:hover::before {
@@ -1802,7 +1819,7 @@ ul.social-icons li {
 
 /* pinterest */
 .icon-border.pinterest::before {
-	box-shadow: inset 0 0 0 48px #FFCF15;
+	box-shadow: inset 0 0 0 48px #FF5722;
 }
 
 .icon-border.pinterest:hover::before {
@@ -1849,7 +1866,7 @@ ul.social-icons li {
     letter-spacing: 2px;
 }
 .w3ls_courses_left_grid h3 i{
-	color:#FFCF15;
+	color:#FF5722;
 	padding-right:1em;
 }
 .w3ls_courses_left_grid p{
@@ -2128,7 +2145,7 @@ p.w3layouts_para {
 	margin: 0 0 20px;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #FFCF15 ! important;
+    color: #FF5722 ! important;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff ! important;
