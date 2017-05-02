@@ -352,6 +352,7 @@ nav.navbar.navbar-default {
     background: #fff;
     margin: 0 auto;
     text-align: center;
+    display: flex;
     position: relative;
     border: 2px solid #FFCF15;
 }
@@ -365,7 +366,7 @@ nav.navbar.navbar-default {
   width: 102%;
   height: 102%;
   border-radius: 50%;
-  background: #FFCF15;
+  background: #ffffff;
   position: absolute;
   top: -1px;
   left: -1px;
@@ -378,11 +379,11 @@ nav.navbar.navbar-default {
   transition: all 0.3s ease 0s;
 }
 .chrt_grid:hover .icon img {
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
-  transform: scale(0.9);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .chrt_grid:hover .icon:before {
   -webkit-transform: scale(1);
