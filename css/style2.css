@@ -60,19 +60,31 @@ body {
 }
 
 .mission .w3ls_mission_grid{
-    height: 300px;
-    width: 32.5%;
+    height: 250px;
+    width: 49%;
     margin: 3px;
 }
+.mission .w3ls_mission_grid h1{
+    color: #FFCF15;
+    text-align: center;
+    padding: 10px 0px;
+    /*border-bottom: 1px solid #FFCF15;*/
+}
+.mission .w3ls_mission_grid p{
+    color: #515254;
+    padding: 10px;
+    line-height: 2em;
+}
 .mission .w3ls_mission_grid:nth-child(1) {
-    background: url(./../images/5.jpg) #444444 no-repeat 0 0;
+    /*background: url(./../images/5.jpg) #444444 no-repeat 0 0;
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: overlay;*/
+    border-right: 1px solid #FFCF15;
 }
 .mission .w3ls_mission_grid:nth-child(2) {
-    background: url(./../images/5.jpg) #444444 no-repeat 0 0;
+    /*background: url(./../images/5.jpg) #444444 no-repeat 0 0;
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: overlay;*/
 }
 .mission .w3ls_mission_grid:nth-child(3) {
     background: url(./../images/5.jpg) #444444 no-repeat 0 0;
@@ -84,6 +96,17 @@ body {
     font-family: inherit;
     text-align: center;
     font-weight: bold;
+}
+
+@media (max-width:768px){
+    .mission .w3ls_mission_grid{
+        width: 100%;
+        height: 250px;
+    }
+    .mission .w3ls_mission_grid:nth-child(1) {
+        border: none;
+        border-bottom: 1px solid #FFCF15;
+    }
 }
 
 .choose {
@@ -160,4 +183,13 @@ ul#products-tabs.nav.nav-tabs li:not(.active) a{
     -moz-transform: translate(-50%, 100%);
     -ms-transform: translate(-50%, 100%);
     -o-transform: translate(-50%, 100%);
+}
+
+
+.w3ls_courses_left_grid:first-child .row {
+    border-bottom: 1px dashed #FFCF15;
+}
+
+.w3ls_courses_left_grid img{
+    margin: 100px 10px;
 }

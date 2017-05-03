@@ -162,7 +162,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- portfolio -->
 <div class="portfolio">
     <div class="container">
-        <h2 class="w3ls_head">Speciality</h2>
+        <h2 class="w3ls_head"><?php echo $category; ?></h2>
         <p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
         <div class="portfolio-agile">
             <div class="main">
@@ -327,6 +327,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     });
 </script>
 <!-- //here ends scrolling icon -->
+<script src="js/global.js"></script>
 </body>
 
 </html>

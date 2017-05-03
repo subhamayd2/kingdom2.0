@@ -448,6 +448,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		});
 	</script>
+	<script src="js/global.js"></script>
 	<!-- //here ends scrolling icon -->
 </body>
 
