@@ -146,15 +146,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
-							<li class="menu__item menu__item--current"><a href="portfolio.html" class="menu__link">Portfolio</a></li>
-							<li class="menu__item"><a href="services.html" class="menu__link">Services</a></li>
 							<li class="dropdown menu__item">
-								<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Short Codes <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Products<b class="caret"></b></a>
 								<ul class="dropdown-menu agile_short_dropdown">
-									<li><a href="icons.html">Icons</a></li>
-									<li><a href="typography.html">Typography</a></li>
+									<li><a href="automotive-lubricants.php">Automotive Lubricants</a></li>
+									<li><a href="industrial-lubricants.php">Industrial Lubricants</a></li>
+									<li><a href="Grease-lubricants.php">Grease</a></li>
+									<li><a href="base-oil.php">Base Oil</a></li>
+									<li><a href="speciality-lubricants.php">Speciality</a></li>
+									<li><a href="bitumen-lubricants.php">Bitumen</a></li>
 								</ul>
 							</li>
+							<li class="menu__item"><a href="#" class="menu__link">Enquiry Cart</a></li>
+
 							<li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
 						</ul>
 					</nav>
