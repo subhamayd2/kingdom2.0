@@ -1,9 +1,30 @@
-<!--
-author: W3layouts
-author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+<?php
+require '/php/conn.php';
+require '/php/functions.php';
+
+if(isset($_GET['q']) && isset($_GET['p'])){
+	$page = $_GET['p'];
+	$name = $_GET['q'];
+} else {
+	header("location: index.html");
+}
+
+$j = null;
+$l = null;
+
+$sql = "select * from tblProducts where ProductName like '%$name%' order by ProductName";
+
+$r = mysqli_query($conn, $sql);
+
+while($row = mysqli_fetch_assoc($r)){
+	$l[] = $row;
+}
+
+$j['data'] = $l;
+
+utf8_encode_deep($j);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,13 +35,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="Executive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-	<script type="application/x-javascript">
-		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); }
-	</script>
+
 	<!-- //for-mobile-apps -->
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+	<link href="css/style2.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- pop-up-script -->
 	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
 	<!-- //pop-up-script -->
@@ -48,6 +68,44 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
+	<script>
+	var json_str = <?php echo json_encode($j); ?>;
+	</script>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="productModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="btn-group pull-right">
+  			<a class="btn btn-default" id="productModalTDS">
+				  <span class="glyphicon glyphicon-download-alt"></span> TDS</a>
+  			<a class="btn btn-default" id="productModalMSDS">
+				  <span class="glyphicon glyphicon-download-alt"></span> MSDS</a>
+  			<button type="button" class="btn btn-danger" id="productModalEnquiry">
+				  <span class="glyphicon glyphicon-plus"></span> Add to Enquiry
+			</button>
+		</div>
+        <h4 class="modal-title" id="productModalTitle">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+			<div class="col-sm-12">
+				<div class="modalImageWrapper">
+					<img src="" alt="Automotive Lubricant" id="productModalImage">
+				</div>
+			</div>
+			<div class="col-sm-12 text-wrapper">
+				<p id="productModalText"></p>
+			</div>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 	<!-- banner -->
 	<div class="banner1">
 		<div class="container">
@@ -105,137 +163,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- portfolio -->
 	<div class="portfolio">
 		<div class="container">
-			<h2 class="w3ls_head">Portfolio</h2>
-			<p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
+			<h2 class="w3ls_head">Search for: "<?php echo $name; ?>"</h2>
+			<p class="text-center"><a class="btn btn-default" href="<?php echo $page; ?>" title="Go back" target="_self">
+			<span class="glyphicon glyphicon-chevron-left"></span> Go back</a></p>
 			<div class="portfolio-agile">
+				
 				<div class="main">
-					<div class="col-sm-3">
-						<div class="view view-seventh">
-							<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-								<img src="images/g1-.jpg" />
-								<div class="mask">
-									<h2>Executive</h2>
-									<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-								</div>
-							</a>
-						</div>
-						<p class="text-center">dsadsadsad</p>
-					</div>
-					<div class="col-sm-3">
-						<div class="view view-seventh">
-							<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-								<img src="images/g1-.jpg" />
-								<div class="mask">
-									<h2>Executive</h2>
-									<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-								</div>
-							</a>
-						</div>
-						<p class="text-center">dsadsadsad</p>
-					</div>
-					<div class="col-sm-3">
-						<div class="view view-seventh">
-							<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-								<img src="images/g1-.jpg" />
-								<div class="mask">
-									<h2>Executive</h2>
-									<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-								</div>
-							</a>
-						</div>
-						<p class="text-center">dsadsadsad</p>
-					</div>
-					<div class="col-sm-3">
-						<div class="view view-seventh">
-							<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-								<img src="images/g1-.jpg" />
-								<div class="mask">
-									<h2>Executive</h2>
-									<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-								</div>
-							</a>
-						</div>
-						<p class="text-center">dsadsadsad</p>
-					</div>
+				<?php
+				for($i = 0; $i < count($l); $i++){
+					
+						echo '<div class="col-sm-3">';
+						echo '<div class="view view-seventh">';
+							echo '<a data-name="'. $l[$i]['ProductName'] .'" data-subcategory="'. $l[$i]['ProductSubCategory'] .'" href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">';
+								echo '<img src="' . $l[$i]['ProductImage'] . '" />';
+								echo '<div class="mask">';
+									echo '<h2>' . $l[$i]['ProductCategory'] . '</h2>';
+									echo '<p>' . $l[$i]['ProductDescriptionShort'] . '</p>';
+								echo '</div>';
+							echo '</a>
+						</div>';
+						echo '<p class="text-center">' . $l[$i]['ProductCategory'] . " | " . $l[$i]['ProductName'] . '</p>';
+					echo '</div>';
+				}
+					?>
 
-				</div>
-
-				<div class="view view-seventh">
-					<a href="images/g5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/g5-.jpg" />
-						<div class="mask">
-							<h2>Executive</h2>
-							<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-						</div>
-					</a>
-				</div>
-				<div class="view view-seventh">
-					<a href="images/g6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/g6-.jpg" />
-						<div class="mask">
-							<h2>Executive</h2>
-							<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-						</div>
-					</a>
-				</div>
-				<div class="view view-seventh">
-					<a href="images/g7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/g7-.jpg" />
-						<div class="mask">
-							<h2>Executive</h2>
-							<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-						</div>
-					</a>
-				</div>
-				<div class="view view-seventh">
-					<a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/g2-.jpg" />
-						<div class="mask">
-							<h2>Executive</h2>
-							<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-						</div>
-					</a>
-				</div>
-
-
-
-				<div class="view view-seventh">
-					<a href="images/g4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/g4-.jpg" />
-						<div class="mask">
-							<h2>Executive</h2>
-							<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-						</div>
-					</a>
-				</div>
-				<div class="view view-seventh">
-					<a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/g2-.jpg" />
-						<div class="mask">
-							<h2>Executive</h2>
-							<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-						</div>
-					</a>
-				</div>
-				<div class="view view-seventh">
-					<a href="images/g3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/g3-.jpg" />
-						<div class="mask">
-							<h2>Executive</h2>
-							<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-						</div>
-					</a>
-				</div>
-				<div class="view view-seventh">
-					<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/g1-.jpg" />
-						<div class="mask">
-							<h2>Executive</h2>
-							<p>Sed tristique nisi augue, sed elementum diam rhoncus nec.sit amet sollicitudin finibus. </p>
-						</div>
-					</a>
 				</div>
 				<div class="clearfix"></div>
+  			</div>
+				
 
 			</div>
 		</div>
@@ -244,9 +199,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- pop-up-script -->
 	<script src="js/jquery.chocolat.js"></script>
 	<script type="text/javascript" charset="utf-8">
-		$(function () {
+		/*$(function () {
 			$('.view-seventh a').Chocolat();
-		});
+		});*/
 	</script>
 	<!-- //pop-up-script -->
 
@@ -331,6 +286,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
 	<!-- //for bootstrap working -->
+
+	<script>
+	$(".view a").on('click', function(e){
+		e.preventDefault();
+
+		var name = $(this).data('name');
+		var subcategory = $(this).data('subcategory');
+		
+
+		var json = json_str;
+		
+		json.data.forEach(function(el) {
+			if(el.ProductName == name && el.ProductSubCategory == subcategory){
+				$("#productModalTDS").attr('href', el.ProductTDSLink);
+				$("#productModalMSDS").attr('href', el.ProductMSDSLink);
+
+				$("#productModalTitle").html(el.ProductName);
+				$("#productModalImage").attr('src', el.ProductImage);
+				$("#productModalText").html(el.ProductDescriptionLong);
+
+				$("#productModal").modal();
+				return false;
+			}
+		}, this);
+	})
+	</script>
+
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function () {

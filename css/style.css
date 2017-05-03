@@ -717,11 +717,12 @@ p.w3agile {
 	right: 2%;
 	overflow: hidden;
 	z-index: 9999; 
-	width: 32px;
-	height: 28px;
+	width: 40px;
+	height: 40px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/move-top.png) no-repeat -3px 3px;
+	background: url(../images/move-top.png) no-repeat 0 0;
+    background-size: cover;
 }
 #toTopHover {
 	width: 32px;
@@ -1170,11 +1171,16 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
     padding: 5em 0;
 }
 /*-- portfolio --*/
+
+.portfolio-agile .col-sm-3 {
+    height: 250px;
+}
+
 .view {
-   width: 275px;
+    max-width: 275px;
     height: 200px;
-    margin: 5px;
-    float: left;
+    width: 100%;
+    margin: 5px auto;
     border:5px solid #F1F0F0;
 	overflow: hidden;
 	position: relative;
@@ -2167,14 +2173,14 @@ p.w3layouts_para {
 .banner1 {
     min-height: 230px;
 }
-.view {
+/*.view {
     width: 219px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 219px;
     height: 200px;
-}
+}*/
 }
 @media (max-width: 667px){
 .contact-right-w3-agile input[type="text"] {
@@ -2188,14 +2194,14 @@ p.w3layouts_para {
 .footer h3 {
     font-size: 18px;
 }
-.view {
+/*.view {
     width: 196px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 196px;
     height: 200px;
-}
+}*/
 }
 @media (max-width: 640px){
 .contact-right-w3-agile input[type="text"]:nth-child(1) {
@@ -2239,14 +2245,14 @@ p.w3layouts_para {
 .what-grid1 h4, .what-grid h4 {
     font-size: 20px;
 }
-.view {
+/*.view {
     width: 286px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 286px;
     height: 200px;
-}
+}*/
 .w3l_choose_right_grid {
     float: left;
     width: 70%;
@@ -2277,14 +2283,14 @@ p.w3layouts_para {
 .w3l-footer-top {
     width: 100%;
 }
-.view {
+/*.view {
     width: 266px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 266px;
     height: 200px;
-}
+}*/
 .w3l_choose_right_grid {
     width: 81%;
 }
@@ -2293,14 +2299,14 @@ p.w3layouts_para {
 }
 }
 @media (max-width: 568px){
-.view {
+/*.view {
     width: 250px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 250px;
     height: 200px;
-}
+}*/
 }
 @media (max-width: 480px){
 .what-grid1 p, .what-grid p {
@@ -2371,14 +2377,14 @@ nav.navbar.navbar-default {
 p.w3layouts_para {
     font-size: 13px;
 }
-.view {
+/*.view {
     width: 206px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 206px;
     height: 200px;
-}
+}*/
 .w3l_choose_right_grid {
     width: 100%;
 }
@@ -2438,14 +2444,14 @@ p.w3layouts_para {
 p.w3layouts_para {
     width: 100%;
 }
-.view {
+/*.view {
     width: 173px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 173px;
     height: 200px;
-}
+}*/
 .services-bottom h3 {
     font-size: 1.3em;
 }
@@ -2466,27 +2472,27 @@ p.w3layouts_para {
 .view p {
     font-size: 13px;
 }
-.view {
+/*.view {
     width: 158px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 158px;
     height: 200px;
-}
+}*/
 }
 @media (max-width: 375px){
 	.agileits-contact-info ul li:nth-child(2) {
     margin-left: 55px;
 }
-.view {
+/*.view {
     width: 154px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 154px;
     height: 200px;
-}
+}*/
 }
 @media (max-width: 320px){
 	.agileits-contact-info ul li:nth-child(2) {
@@ -2610,14 +2616,14 @@ p.w3layouts_para {
 .portfolio {
     padding: 2em 0;
 }
-.view {
+/*.view {
     width: 263px;
     height: 200px;
 }
 .view .mask, .view .content {
     width: 263px;
     height: 200px;
-}
+}*/
 .portfolio-agile {
     margin-top: 2em;
 }

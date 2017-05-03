@@ -1,3 +1,6 @@
+body {
+    position: relative;
+}
 .navbar{
     margin-top: 50px;
 }
@@ -20,6 +23,9 @@
 .flexslider {
     height: 800px;
     overflow: hidden;
+    position: relative;
+}
+.header-wrapper {
     position: relative;
 }
 .header-wrapper .overlay{
@@ -105,4 +111,53 @@
     color: #ffffff;
     font-weight: lighter;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+ul#products-tabs {
+    margin-bottom: 50px;
+}
+
+ul#products-tabs.nav.nav-tabs li:not(.active) a{
+    color: #515254;
+}
+
+#productModal .modalImageWrapper {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#productModal .modalImageWrapper img {
+    width: 100%;
+    height: auto;
+    top: -50%;
+    position: absolute;
+}
+
+#productModal .btn-group .btn:not(.btn-default) .glyphicon{
+    color: #ffffff;
+}
+
+#productModal .modal-body{
+    padding: 0;
+}
+#productModal .modal-body .text-wrapper {
+    padding: 10px 25px;
+}
+
+.agileinfo_share .input-group{
+    margin-bottom: 0;
+}
+
+.logo-wrapper-mobile {
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    -webkit-transform: translate(-50%, 100%);
+    -moz-transform: translate(-50%, 100%);
+    -ms-transform: translate(-50%, 100%);
+    -o-transform: translate(-50%, 100%);
 }
