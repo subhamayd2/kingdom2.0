@@ -175,7 +175,7 @@ ul#products-tabs.nav.nav-tabs li:not(.active) a{
 
 .logo-wrapper-mobile {
     position: absolute;
-    z-index: 999999;
+    z-index: 99999;
     top: 0;
     left: 50%;
     transform: translate(-50%, 100%);
