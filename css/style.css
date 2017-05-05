@@ -299,6 +299,14 @@ nav.navbar.navbar-default {
     padding: 20px 0;
     border-bottom:1px solid #7b7b7d;
 }
+.agile-header.index-agile-header{
+    border: none;
+}
+@media (max-width: 768px) {
+    .agile-header.index-agile-header form {
+    padding: 0 10px;
+}
+}
 .wthree_banner_info_grid h4 {
     color: #fff;
     font-size: 28px;

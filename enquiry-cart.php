@@ -98,7 +98,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.html">Kingdom</a></h1>
+					<h1><a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" width="200" alt="Kingdom" class="visible-lg visible-md">
+							<h1 class="text-center visible-xs visible-sm">Kingdom</h1>
+						</a></h1>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">

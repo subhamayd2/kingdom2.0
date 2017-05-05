@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+
 body {
     position: relative;
 }
+.padding{
+    padding: 5px;
+}
+.margin-top {
+    margin-left: 5px;
+}
+.margin-bottom {
+    margin-left: 5px;
+}
+.margin-left {
+    margin-left: 5px;
+}
+.margin-right {
+    margin-left: 5px;
+}
 .navbar{
     margin-top: 50px;
+}
+.navbar-brand h1{
+    font-family: 'Petit Formal Script', 'Oswald', sans-serif;
+    font-size: 30pt;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 .header{
     top: 0;
@@ -284,4 +306,14 @@ ul#products-tabs.nav.nav-tabs li:not(.active) a{
         -ms-transform: rotateZ(360deg);
         -o-transform: rotateZ(360deg);
     }
+}
+
+
+ol.flex-control-nav {
+    z-index: 9999;
+    top: 50%;
+    left: 10px;
+}
+ol.flex-control-paging li a.flex-active {
+    background: #FFCF15;
 }
