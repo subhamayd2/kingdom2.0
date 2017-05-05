@@ -63,9 +63,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
-<script>
-    var json_str = <?php echo json_encode($j); ?>;
-</script>
+<input type="hidden" id="productData" value='<?php echo json_encode($j); ?>'>
 
 <div class="modal fade" tabindex="-1" role="dialog" id="productModal">
     <div class="modal-dialog" role="document">
@@ -76,9 +74,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span class="glyphicon glyphicon-download-alt"></span> TDS</a>
                     <a class="btn btn-default" id="productModalMSDS">
                         <span class="glyphicon glyphicon-download-alt"></span> MSDS</a>
-                    <button type="button" class="btn btn-danger" id="productModalEnquiry">
+                    <a class="btn btn-danger" id="productModalEnquiry" title="Add this product to enquiry">
                         <span class="glyphicon glyphicon-plus"></span> Add to Enquiry
-                    </button>
+                    </a>
                 </div>
                 <h4 class="modal-title" id="productModalTitle">Modal title</h4>
             </div>
@@ -113,6 +111,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="w3_agileits_social_media">
                 <ul>
+                    <li class="agileinfo_share">
+                        <form class="form-inline">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                                <input type="text" name="q" placeholder="Search" class="form-control">
+
+                            </div>
+                            <input type="hidden" name="p" value="Grease-lubricants.php">
+                        </form>
+                    </li>
                     <li class="agileinfo_share">Share On</li>
                     <li><a href="#" class="wthree_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -291,13 +299,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         var name = $(this).data('name');
         var subcategory = $(this).data('subcategory');
 
-
-        var json = json_str;
+        var json = JSON.parse($('#productData').val());
 
         json.data.forEach(function(el) {
             if(el.ProductName == name && el.ProductSubCategory == subcategory){
                 $("#productModalTDS").attr('href', el.ProductTDSLink);
                 $("#productModalMSDS").attr('href', el.ProductMSDSLink);
+
+                var link = "enquiry-cart.php?product="+el.ProductName+"&q=0&p=0&c=Grease&sc="+subcategory;
+
+                $("#productModalEnquiry").attr('href', link);
 
                 $("#productModalTitle").html(el.ProductName);
                 $("#productModalImage").attr('src', el.ProductImage);
