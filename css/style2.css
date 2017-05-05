@@ -179,6 +179,28 @@ ul#products-tabs.nav.nav-tabs li:not(.active) a{
 .agileinfo_share .input-group{
     margin-bottom: 0;
 }
+.agileinfo_share .input-group span,
+.agileinfo_share .input-group input{
+    background: transparent;
+    color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;    
+}
+.agileinfo_share .input-group span *{
+    color: #ffffff;
+}
+.agileinfo_share .input-group input:focus,
+.agileinfo_share .input-group input:active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
 
 .logo-wrapper-mobile {
     position: absolute;

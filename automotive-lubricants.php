@@ -63,7 +63,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
-<input type="hidden" id="productData" value='<?php echo json_encode($j); ?>'>
+<script>
+var json = <?php echo json_encode($j); ?>
+</script>
+<!--<input type="hidden" id="productData" value='<?php echo json_encode($j); ?>'>-->
 
 <div class="modal fade" tabindex="-1" role="dialog" id="productModal">
   <div class="modal-dialog" role="document">
@@ -112,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="w3_agileits_social_media">
 					<ul>
 						<li class="agileinfo_share">
-								<form class="form-inline">
+								<form class="form-inline" method="get" action="search.php">
 									<div class="input-group">
     									<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
     									<input type="text" name="q" placeholder="Search" class="form-control">
@@ -413,9 +416,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		var name = $(this).data('name');
 		var subcategory = $(this).data('subcategory');
-		
-		var json = JSON.parse($('#productData').val());
-		
+
 		json.data.forEach(function(el) {
 			if(el.ProductName == name && el.ProductSubCategory == subcategory){
 				$("#productModalTDS").attr('href', el.ProductTDSLink);
