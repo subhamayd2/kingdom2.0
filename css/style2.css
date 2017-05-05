@@ -20,6 +20,9 @@ body {
 .header .agile-header{
     padding: auto 10px;
 }
+.dropdown-menu {
+    z-index: 999999 !important;
+}
 .flexslider {
     height: 800px;
     overflow: hidden;
@@ -29,7 +32,7 @@ body {
     position: relative;
 }
 .header-wrapper .overlay{
-    z-index: 9999;
+    z-index: 999;
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
@@ -47,7 +50,7 @@ body {
     width: auto;
 }
 .flexslider .slides li div.caption{
-    z-index: 99999;
+    z-index: 9999;
     width: 100%;
     top: 30%;
     text-shadow: 1px 1px 1px #000;

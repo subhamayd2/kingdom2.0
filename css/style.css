@@ -40,11 +40,11 @@ input[type="submit"],input[type="reset"],.w3layouts_mail_grid_left2 a,.w3agile_s
 .banner1{
 	background:url(../images/banner2.jpg) #444 no-repeat 0 -100px;
     background-blend-mode: overlay;
-	background-size:cover;
-	-webkit-background-size:cover;
+	/*-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
+    background-size:cover;*/
 	min-height:200px;
 }
 /*-- nav --*/
@@ -2130,7 +2130,7 @@ p.w3layouts_para {
 	background-color: #fff;
 }
 .navbar-toggle {
-	margin:0em 0 0;
+	margin:1.5em 5px 0 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: transparent;
@@ -2169,9 +2169,9 @@ p.w3layouts_para {
 }
 }
 @media (max-width: 736px){
-.banner1 {
+/*.banner1 {
     min-height: 230px;
-}
+}*/
 /*.view {
     width: 219px;
     height: 200px;
