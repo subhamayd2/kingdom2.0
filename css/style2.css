@@ -113,8 +113,12 @@ body {
 }
 
 .choose {
-    background: url(./../images/banner.jpg) #444444 no-repeat 0 -200px;
-    background-size: cover;
+    background: url(./../images/banner.jpg) #444444 no-repeat 50% 50%;
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+    background-size:cover;
     background-blend-mode: overlay;
 }
 .choose i.fa{
@@ -136,6 +140,7 @@ body {
 .choose .row h3{
     color: #ffffff;
     font-weight: lighter;
+    margin-bottom: 10px;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
@@ -221,6 +226,12 @@ ul#products-tabs.nav.nav-tabs li:not(.active) a{
 
 .w3ls_courses_left_grid img{
     margin: 100px 10px;
+}
+
+@media (max-width:768px){
+    .w3ls_courses_left_grid img{
+        margin: 20px 10px;
+    }
 }
 
 .view .mask p {
