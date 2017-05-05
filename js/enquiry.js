@@ -143,8 +143,8 @@ $(document).ready(function () {
         for (var i = 0; i < list.length; i++){
             html += "<tr>";
             html += "<td><p>" + list[i].mainCategory + "/" + list[i].subCategory + "/<strong>" + list[i].product + "</strong></p></td>";
-            html += "<td><p><input id='p" + i +"' class='form-control' type='number' value='" + list[i].packing + "'></p></td>";
-            html += "<td><p><input id='q" + i +"' class='form-control' type='number' value='" + list[i].quantity + "'></p></td>";
+            html += "<td><p><input min='0' id='p" + i +"' class='form-control' type='number' value='" + list[i].packing + "'></p></td>";
+            html += "<td><p><input min='0' id='q" + i +"' class='form-control' type='number' value='" + list[i].quantity + "'></p></td>";
             html += "<td><p><button class='btn btn-success update' data-id='" + i + "'><span class='glyphicon glyphicon-ok'></span> Update</button></p></td>";
             html += "<td><p><button class='btn btn-danger delete' data-id='" + i + "'><span class='glyphicon glyphicon-trash'></span> Delete</button></p></td>";
             html += "</tr>";
