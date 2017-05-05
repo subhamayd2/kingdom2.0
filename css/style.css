@@ -2129,7 +2129,7 @@ p.w3layouts_para {
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
-.navbar-toggle {
+.navbar-toggle.index-navbar-toggle {
 	margin:1.5em 5px 0 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
