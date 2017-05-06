@@ -112,6 +112,9 @@ $(document).ready(function () {
 
         $("#enquirySubmit").text("Submitting...");
 
+        var d = new Date();
+        var date = (d.getYear()+1900) +"-"+ (d.getMonth() + 1) +"-"+ zero(d.getDate()) +" "+ zero(d.getHours()) +":"+ zero(d.getMinutes()) +":"+ zero(d.getSeconds());
+
         $.ajax({
             type: 'POST',
             url: './php/enquiry.php',
@@ -122,6 +125,7 @@ $(document).ready(function () {
                 phone: phone,
                 country: country,
                 enquiry: enquiry,
+                datetime: date,
                 function: "submitEnquiry"
             },
             success: function (result) {
@@ -153,3 +157,8 @@ $(document).ready(function () {
         $("#enquiryList").html(html);
     }
 });
+
+function zero(val) {
+    if (val < 10) return "0" + val;
+    else return val;
+}

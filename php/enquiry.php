@@ -19,6 +19,7 @@ function submitEnquiry(){
     $phone = isset($_POST['phone']) ? $_POST['phone'] : die("0");
     $country = isset($_POST['country']) ? $_POST['country'] : die("0");
     $enquiry = isset($_POST['enquiry']) ? $_POST['enquiry'] : die("0");
+    $datetime = isset($_POST['datetime']) ? $_POST['datetime'] : die("0");
 
     $sql = "";
 
@@ -29,7 +30,7 @@ function submitEnquiry(){
         $p = $list[$i]->packing;
         $q = $list[$i]->quantity;
 
-        $sql .= "insert into tblEnquiry (ProductName, ProductCategory, ProductSubCategory, ProductPacking, ProductQuantity, CustomerName, CustomerEmail, CustomerPhone, CustomerCountry, EnquiryDetails) values ('$n', '$c', '$sc', '$p', '$q', '$name', '$email', '$phone', '$country', '$enquiry'); ";
+        $sql .= "insert into tblEnquiry (ProductName, ProductCategory, ProductSubCategory, ProductPacking, ProductQuantity, CustomerName, CustomerEmail, CustomerPhone, CustomerCountry, EnquiryDetails, TimeStamp) values ('$n', '$c', '$sc', '$p', '$q', '$name', '$email', '$phone', '$country', '$enquiry', '$datetime'); ";
     }
 
     if(mysqli_multi_query($conn, $sql)){
