@@ -52,6 +52,10 @@
             });
         </script>
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+        <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+        <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+
         <!-- start-smoth-scrolling -->
 </head>
 
@@ -389,7 +393,7 @@
 
     <div class="location">
         <div class="container-fluid">
-            <iframe src="https://www.google.com/maps/d/embed?mid=16b9WKEvws8h7X4YF6bSc7X9FE-Q&ll=9.941704983935747%2C13.18359375&z=3"></iframe>
+            <div id="location-container"></div>
         </div>
     </div>
 
@@ -520,6 +524,7 @@
                         });
     </script>
     <script src="js/global.js"></script>
+    <script src="js/map.js"></script>
     <!-- //here ends scrolling icon -->
 </body>
 

@@ -457,8 +457,11 @@ ol.flex-control-paging li a.flex-active {
 
 
 
-.location iframe {
+.location #location-container {
     width: 100%;
     height: 600px;
-    border: none;
+}
+
+.amcharts-main-div a[href="http://www.amcharts.com/javascript-maps/"]{
+    opacity: 0 !important;
 }
