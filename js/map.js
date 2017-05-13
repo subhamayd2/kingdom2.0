@@ -265,7 +265,7 @@ l1.004,94.971C549.708,470.031,548.68,471.39,547.198,471.757z`;
                 }, {
                     "id": "office4",
                     "svgPath": officeSvg,
-                    "title": "Office - -------.",
+                    "title": "Office - Colombia.",
                     "latitude": 3.33795, 
                     "longitude": -72.72949,
                     "color": officeColor,

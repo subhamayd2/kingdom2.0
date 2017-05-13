@@ -24,12 +24,30 @@ utf8_encode_deep($j);
 <html lang="en">
 
 <head>
-    <title>Executive a Corporate Business Category Flat Bootstrap Responsive Website Template | Portfolio :: w3layouts</title>
+    <title>Base Oil</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Executive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <meta name="Description" content="Kingdom Lubricants Lubricants Factory LLC , an ISO 9001:2008 Certified Industrial Oils, Lubricants and Greases manufacturer. Since our establishment in 1990, we have been commited to provide customised lubrication solutions to many industries and clients.We, at Kingdom Lubricants, GUARANTEE smooth and prompt delivery of our products in every part of the globe because of our concentration in one activity of Lubricants manufacturing.We manufacture speciality lubricants across several domains such as  aviation, automobile, paper mills, printing press, power plants, cement and construction, tyre manufacturing and general manufacturing industries. synthetic oils, semi-synthetic oils and greases, high performance industrial lubricants and graphite based lubricants are our key area of excellence."/>
+    <meta name="keywords" content="Lubricants, UAE, Dubai, Lubricants in UAE, Lubricants in Dubai, Lubricants Manufacturers, Grease, Industrial Oil, Marine Oil, Petroleum Products, Motor Oil, Gear Oil, Brake Fluid, Base Oil, Additives, Marine Lubricants, CNG, Diesel Engine Oil, Hydraulic Oil, Specialty Products, Automatic Transmission Oil, Lubricants Additives, Lubricants, 20W50, 15W40, Engine Oil, Cleaner, Lubrication, Protectant, CLP, Lubricant, fuel and lubricant dispensing products, Drum Equipment, Filtration, Flowmeters, Powered Pumps, silicone lubricants, treadmill oil , plumbers grease, pipe fitting, silicone grease sachets, hydraulic oil, metal cutting fluids, gear oils, motor oils, bradford, Industrial Maintenance Products, Automotive Lubricants, Spill Control, Specialized Lubrication Services, green, natural, bioil, harnett, waringstown, clean, cost effective, low temperatures, no mess, environmentaly friendly, will harnett, mike harnett, jane harnett, waring estate,crops, mould release oil, chainsaw oils, high speed, local, northern ireland, Bioil, pure, alternative, virgin oil, Oils, Industrial Oils, Synthetic Oils, Gearbox, Semi-Synthetic Oils, Heavy duty lubricants">
+
+    <meta name="Competitor" content="Kluber, OKS, Bechem, Rocol, Molypaul, Lubcon, Stanvac, Molygraph, Lubegraph, Tribo, Molykote, Jetlube, Pulsco, Kyodo Yushi, Lubrication Engineers,LE, AGIP, Anderol, AVIA Bentelon, Castrol, Brugarolas, Castrol, Mobil, Shell, Caltex, BP, Exxon, LPS, CRC, Demag, Lubriplate, Omega, Corium, Optimol, Tribol, Selco, Superlube, Zetalube, SKF, FAG, THC, Wurth, Force, Dana, Enoc, Lubrex FZC, Lubrex , Oscar Lubricants, Danagroups, Crystal Lubricants.">
+
+    <meta name="Industry" content="Oil Exploration, Lubricants Supplier, Lubricants Manufacturer, Steel, Cement, Textile, Spinning, Weaving, Finishing, Processing, Auto Assembly, Auto Component, Biscuit and Confectionary, Pharma, Beverages, SPM, Engineering, Forging, Diecasting, Paper Manufacturing, Infrastructure Equipments, Ceramic, Plastic Moulding, Power Plant, Gas Power, Wind Power, Thermal Power Plant, Tyre Industry, Rubber Processing."/>
+
+    <meta name ="Application" content="Raw Mill, Draw Frame, Speed Frame, Merceriser, VDR, VDU, Stenter, Gear Box, Bearings, O - Rings, High Speed Bearings, Heavy Load, Humidity, Control Cable, Yaw Bearing, Moulds, Cleaner.">
+
+    <meta name="Product Chemistry" content="Moly, Silicone, Ester, Diester, Polyol Ester, PAO, SHC, Olefins, Synthetic Hydrocarbon, Polyglycol, Mineral, Teflon, Boron, Graphite, Lithium, Lithium Complex, Calcium, Calcium Complex, Aluminium Complex, Bentone, Polyurea, Lithium Calcium, Calcium Sulfonate Complex, Mixed Soap." />
+
+    <meta name="Certification" content="SAE, ACEA, API, ISO and NLGI, OEM(Volvo)">
+
+    <meta http-equiv="Revisit-After" content="7 days">
+
+    <meta name="Geographical" content="UAE, Dubai, Ajman, India, Kolkata, Canada, Calgary, Toronto, Central America, Asia, South Asia, Central America, el salvador, Curacao, Caribbean, Colombia, South America, Middle East, Nigeria">
+
+    <meta name="Language" content="en-gb">
+
+    <meta name="url-identifier" content="http://kingdomlubricants.com/base-oil.php">
 
     <!-- //for-mobile-apps -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -108,8 +126,8 @@ var json = <?php echo json_encode($j); ?>
         <div class="agile-header">
             <div class="agileits-contact-info text-right">
                 <ul>
-                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">mail@example.com</a></li>
-                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+080 264 995</li>
+                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:sales@kingdomlubricants.com">sales@kingdomlubricants.com</a></li>
+                    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+971 50 762 8077</li>
                 </ul>
             </div>
             <div class="w3_agileits_social_media">
@@ -125,9 +143,9 @@ var json = <?php echo json_encode($j); ?>
                         </form>
                     </li>
                     <li class="agileinfo_share">Share On</li>
-                    <li><a href="#" class="wthree_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#" class="wthree_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    <li><a title="Facebook" target="_blank" href="https://www.facebook.com/kingdomlubricantsllc/" class="wthree_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a title="Twitter" target="_blank" href="https://twitter.com/kingdomlubes" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/kingdom-lubricants-2326b2142/" class="wthree_dribbble"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 
                 </ul>
             </div>
@@ -163,7 +181,7 @@ var json = <?php echo json_encode($j); ?>
                                 <li><a href="bitumen-lubricants.php">Bitumen</a></li>
                             </ul>
                         </li>
-                        <li class="menu__item"><a href="#" class="menu__link">Enquiry Cart</a></li>
+                        <li class="menu__item"><a href="enquiry-cart.php" class="menu__link">Enquiry Cart</a></li>
 
                         <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
                     </ul>
