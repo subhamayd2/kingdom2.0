@@ -465,3 +465,39 @@ ol.flex-control-paging li a.flex-active {
 .amcharts-main-div a[href="http://www.amcharts.com/javascript-maps/"]{
     opacity: 0 !important;
 }
+
+
+
+
+.amcharts-main-div svg g[aria-label$=". "] path{
+    animation-name: emp;
+    -webkit-animation-name: emp;
+    animation-duration: 1.2s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes emp {
+    0% {
+        fill: #ff6600;
+    }
+    50% {
+        fill: #ffb380;
+    }
+    100% {
+        fill: #ff6600;
+    }
+}
+@-webkit-keyframes emp {
+    0% {
+        fill: #ff6600;
+    }
+    50% {
+        fill: #ffb380;
+    }
+    100% {
+        fill: #ff6600;
+    }
+}
