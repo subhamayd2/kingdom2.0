@@ -33,6 +33,33 @@ utf8_encode_deep($l);
 	<title>Enquiry Cart : Kingdom Lubricants</title>
 	<!-- for-mobile-apps -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon.png">
+
+	<!-- FB OG -->
+<meta property="og:title" content="Enquiry Cart : Kingdom Lubricants" />
+<meta property="og:url" content="https://kingdomlubricants.com" />
+<meta property="og:site_name" content="Kingdom Lubricants" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Kingdom Lubricants Lubricants Factory LLC , an ISO 9001:2008 Certified Industrial Oils, Lubricants and Greases manufacturer.
+Since our establishment in 1990, we have been commited to provide customised lubrication solutions to many industries and
+clients.We, at Kingdom Lubricants, GUARANTEE smooth and prompt delivery of our products in every part of the globe because
+of our concentration in one activity of Lubricants manufacturing.We manufacture speciality lubricants across several domains
+such as aviation, automobile, paper mills, printing press, power plants, cement and construction, tyre manufacturing and
+general manufacturing industries. synthetic oils, semi-synthetic oils and greases, high performance industrial lubricants
+and graphite based lubricants are our key area of excellence." />
+<meta property="og:image" content="https://kingdomlubricants.com/images/fb_og_banner.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Kingdom Lubricants Lubricants Factory LLC , an ISO 9001:2008 Certified Industrial Oils, Lubricants and Greases manufacturer.
+Since our establishment in 1990, we have been commited to provide customised lubrication solutions to many industries and
+clients.We, at Kingdom Lubricants, GUARANTEE smooth and prompt delivery of our products in every part of the globe because
+of our concentration in one activity of Lubricants manufacturing.We manufacture speciality lubricants across several domains
+such as aviation, automobile, paper mills, printing press, power plants, cement and construction, tyre manufacturing and
+general manufacturing industries. synthetic oils, semi-synthetic oils and greases, high performance industrial lubricants
+and graphite based lubricants are our key area of excellence." />
+<meta name="twitter:title" content="Enquiry Cart : Kingdom Lubricants" />
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="Description" content="Kingdom Lubricants Lubricants Factory LLC , an ISO 9001:2008 Certified Industrial Oils, Lubricants and Greases manufacturer. Since our establishment in 1990, we have been commited to provide customised lubrication solutions to many industries and clients.We, at Kingdom Lubricants, GUARANTEE smooth and prompt delivery of our products in every part of the globe because of our concentration in one activity of Lubricants manufacturing.We manufacture speciality lubricants across several domains such as  aviation, automobile, paper mills, printing press, power plants, cement and construction, tyre manufacturing and general manufacturing industries. synthetic oils, semi-synthetic oils and greases, high performance industrial lubricants and graphite based lubricants are our key area of excellence."/>
 	<meta name="keywords" content="Lubricants, UAE, Dubai, Lubricants in UAE, Lubricants in Dubai, Lubricants Manufacturers, Grease, Industrial Oil, Marine Oil, Petroleum Products, Motor Oil, Gear Oil, Brake Fluid, Base Oil, Additives, Marine Lubricants, CNG, Diesel Engine Oil, Hydraulic Oil, Specialty Products, Automatic Transmission Oil, Lubricants Additives, Lubricants, 20W50, 15W40, Engine Oil, Cleaner, Lubrication, Protectant, CLP, Lubricant, fuel and lubricant dispensing products, Drum Equipment, Filtration, Flowmeters, Powered Pumps, silicone lubricants, treadmill oil , plumbers grease, pipe fitting, silicone grease sachets, hydraulic oil, metal cutting fluids, gear oils, motor oils, bradford, Industrial Maintenance Products, Automotive Lubricants, Spill Control, Specialized Lubrication Services, green, natural, bioil, harnett, waringstown, clean, cost effective, low temperatures, no mess, environmentaly friendly, will harnett, mike harnett, jane harnett, waring estate,crops, mould release oil, chainsaw oils, high speed, local, northern ireland, Bioil, pure, alternative, virgin oil, Oils, Industrial Oils, Synthetic Oils, Gearbox, Semi-Synthetic Oils, Heavy duty lubricants">
