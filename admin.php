@@ -43,7 +43,7 @@ function print_data(){
 function print_list($row){
     global $conn;
 
-    $sql = "SELECT * FROM tblEnquiry where CustomerName = '".$row['CustomerName']."' and CustomerEmail = '".$row['CustomerEmail']."' and CustomerPhone = '".$row['CustomerPhone']."' and CustomerCountry = '".$row['CustomerCountry']."' and EnquiryDetails = '".$row['EnquiryDetails']."'";
+    $sql = "SELECT * FROM tblEnquiry where CustomerName = '".$row['CustomerName']."' and CustomerEmail = '".$row['CustomerEmail']."' and CustomerPhone = '".$row['CustomerPhone']."' and CustomerCountry = '".$row['CustomerCountry']."' and EnquiryDetails = '".$row['EnquiryDetails']."' and TimeStamp = '".$row['TimeStamp']."'";
 
     $r = mysqli_query($conn, $sql);
 
