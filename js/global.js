@@ -23,7 +23,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: 'http://localhost/kingdom2.0/php/contact.php',
+            url: './php/contact.php',
             data: {
                 name: name,
                 email: email,
