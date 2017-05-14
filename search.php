@@ -6,7 +6,7 @@ if(isset($_GET['q']) && isset($_GET['p'])){
 	$page = $_GET['p'];
 	$name = $_GET['q'];
 } else {
-	header("location: index.html");
+	header("location: http://kingdomlubricants.com");
 }
 
 $j = null;
@@ -193,7 +193,7 @@ and graphite based lubricants are our key area of excellence." />
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.html">
+					<h1><a class="navbar-brand" href="http://kingdomlubricants.com">
 						<img src="images/logo.png" width="200" alt="Kingdom" class="visible-lg visible-md">
 							<h1 class="text-center visible-xs visible-sm">Kingdom</h1>
 						</a></h1>
@@ -202,7 +202,7 @@ and graphite based lubricants are our key area of excellence." />
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="http://kingdomlubricants.com" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
 							<li class="dropdown menu__item">
 								<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Products<b class="caret"></b></a>
@@ -299,7 +299,7 @@ and graphite based lubricants are our key area of excellence." />
 				<div class="col-md-3 footer-agileits-w3layouts">
 					<h3>Our Links</h3>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="http://kingdomlubricants.com">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="enquiry-cart.php">Enquiry Cart</a></li>
 						<li><a href="contact.html">Contact</a></li>
