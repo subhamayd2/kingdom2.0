@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6b6460-1a5b-495f-91d4-122bc248bf43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grease-lubricants.php" afterPath="$PROJECT_DIR$/Grease-lubricants.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automotive-lubricants.php" afterPath="$PROJECT_DIR$/automotive-lubricants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base-oil.php" afterPath="$PROJECT_DIR$/base-oil.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitumen-lubricants.php" afterPath="$PROJECT_DIR$/bitumen-lubricants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enquiry-cart.php" afterPath="$PROJECT_DIR$/enquiry-cart.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial-lubricants.php" afterPath="$PROJECT_DIR$/industrial-lubricants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speciality-lubricants.php" afterPath="$PROJECT_DIR$/speciality-lubricants.php" />
     </list>
     <ignored path="kingdom2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7164">
-              <caret line="179" column="103" selection-start-line="179" selection-start-column="103" selection-end-line="179" selection-end-column="103" />
+            <state relative-caret-position="814">
+              <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -67,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3740">
-              <caret line="170" column="99" selection-start-line="170" selection-start-column="99" selection-end-line="170" selection-end-column="99" />
+            <state relative-caret-position="-752">
+              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,8 +172,8 @@
         <option value="$PROJECT_DIR$/Grease-lubricants.php" />
         <option value="$PROJECT_DIR$/industrial-lubricants.php" />
         <option value="$PROJECT_DIR$/speciality-lubricants.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -374,15 +364,15 @@
       <workItem from="1494611233072" duration="1058000" />
       <workItem from="1494659361906" duration="9308000" />
       <workItem from="1494680912931" duration="8228000" />
-      <workItem from="1494742043497" duration="2755000" />
+      <workItem from="1494742043497" duration="4962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81168000" />
+    <option name="totallyTimeSpent" value="83375000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1929" height="1038" extended-state="0" />
+    <frame x="-8" y="0" width="1929" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24856097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -763,18 +753,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7164">
-          <caret line="179" column="103" selection-start-line="179" selection-start-column="103" selection-end-line="179" selection-end-column="103" />
+        <state relative-caret-position="-752">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3740">
-          <caret line="170" column="99" selection-start-line="170" selection-start-column="99" selection-end-line="170" selection-end-column="99" />
+        <state relative-caret-position="814">
+          <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
           <folding />
         </state>
       </provider>
