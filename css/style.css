@@ -1209,7 +1209,14 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 }
 .view img {
    display: block;
-   position: relative;
+   position: absolute;
+   width: 100%;
+   top: 50%;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   -o-transform: translateY(-50%);
 }
 .view h2 {
    text-transform: uppercase;
@@ -1307,11 +1314,11 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
    transition: all 0.2s ease-in-out;
 }
 .view-seventh:hover img {
-    -webkit-transform: scale(1.05, 1.05);
-    -moz-transform: scale(1.05, 1.05);
-    -ms-transform: scale(1.05, 1.05);
-    -o-transform: scale(1.05, 1.05);
-    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05) translateY(-50%);
+    -moz-transform: scale(1.05, 1.05) translateY(-50%);
+    -ms-transform: scale(1.05, 1.05) translateY(-50%);
+    -o-transform: scale(1.05, 1.05) translateY(-50%);
+    transform: scale(1.05, 1.05) translateY(-50%);    
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
    filter: alpha(opacity=0.5);
    opacity: 0.5;
