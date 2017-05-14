@@ -159,7 +159,7 @@
 		<div class="container">
 			<div class="contact-main">
 				<div class="contact-top">
-					<h2>Contact</h2>
+					<!--<h2>Contact</h2>-->
 				</div>
 				<div class="contact-block1">
 					<div class="col-md-6 contact-address">
@@ -193,7 +193,7 @@
 										<span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span>
 									</div>
 									<div class="col-sm-11">
-										<p><a href="mailto:sales@kindomlubricants.com">sales@kindomlubricants.com</a></p>
+										<p><a href="mailto:sales@kindomlubricants.com" title="" target="_self">sales@kindomlubricants.com</a></p>
 									</div>
 								</div>
 							</li>
@@ -201,11 +201,11 @@
 					</div>
 					<div class="col-md-6 contact-block-left">
 						<form id="init-popup-form">
-							<input type="text" placeholder="Name" required="" name="name">
-							<input type="text" class="email" placeholder="Email" name="email">
-							<input type="text" class="subject" placeholder="Subject" name="subject">
-							<textarea placeholder="Message" name="message"></textarea>
-							<input type="submit" id="init-popup-submit" value="Send">
+							<input type="text" class="name" placeholder="Name" required="required" name="name">
+							<input type="email" class="email" placeholder="Email" name="email" required="required">
+							<input type="text" class="subject" placeholder="Subject" name="subject" required="required">
+							<textarea placeholder="Message" class="message" name="message"></textarea>
+							<button type="submit" id="contact-form-submit">Send <span class="glyphicon glyphicon-send glyphicon-default" aria-hidden="true"></span></button>
 						</form>
 					</div>
 					<div class="clearfix"></div>
