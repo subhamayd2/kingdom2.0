@@ -82,6 +82,9 @@ utf8_encode_deep($j);
 </head>
 
 <body>
+<div class="page-load">
+	<img src="images/loader.gif" alt="Loading Kingdom Lubricants">
+</div>
 <script>
 var json = <?php echo json_encode($j); ?>
 </script>
@@ -196,7 +199,6 @@ var json = <?php echo json_encode($j); ?>
 	<div class="portfolio">
 		<div class="container">
 			<h2 class="w3ls_head">Industrial Lubricant</h2>
-			<p class="w3layouts_para">Fusce quis leo in augue ultricies tincidunt a quis mi. Donec at massa nec sem eleifend fermentum.</p>
 			<div class="portfolio-agile">
 				<div class="main">
 				<?php
@@ -236,82 +238,95 @@ var json = <?php echo json_encode($j); ?>
 	<!-- //pop-up-script -->
 
 	<!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-w3layouts">
-				<div class="col-md-3 footer-agileits">
-					<h3>Specialized</h3>
-					<ul>
-						<li>the printing</li>
-						<li>typesetting industry.</li>
-						<li>Lorem Ipsum</li>
-						<li>unknown printer</li>
-					</ul>
-				</div>
-				<div class="col-md-3 footer-wthree">
-					<h3>Partners</h3>
-					<ul>
-						<li>unknown printer</li>
-						<li>Lorem Ipsum</li>
-						<li>the printing</li>
-						<li>typesetting industry.</li>
-					</ul>
-				</div>
-				<div class="col-md-3 footer-w3-agileits">
-					<h3>Consultation</h3>
-					<ul>
-						<li>typesetting industry.</li>
-						<li>the printing</li>
-						<li>unknown printer</li>
-						<li>Lorem Ipsum</li>
-					</ul>
-				</div>
-				<div class="col-md-3 footer-agileits-w3layouts">
-					<h3>Our Links</h3>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
+<div class="footer">
+	<div class="container">
+		<div class="footer-w3layouts">
+			<div class="col-md-3 footer-agileits">
+				<h3>Our Products</h3>
+				<ul>
+					<li><a href="automotive-lubricants.php">Automotive Lubricants</a></li>
+					<li><a href="industrial-lubricants.php">Industrial Lubricants</a></li>
+					<li><a href="Grease-lubricants.php">Grease</a></li>
+					<li><a href="base-oil.php">Base Oil</a></li>
+					<li><a href="speciality-lubricants.php">Speciality</a></li>
+					<li><a href="bitumen-lubricants.php">Bitumen</a></li>
+				</ul>
 			</div>
-			<div class="footer-w3-agile">
-				<div class="col-md-6 w3l-footer-top">
-					<h3>Newsletter</h3>
-					<form action="#" method="post" class="newsletter">
-						<input class="email" type="email" placeholder="Your email..." required="">
-						<input type="submit" class="submit" value="">
-					</form>
-					<div class="footer-agile">
-						<div class="col-md-6 footer-w3-1">
-							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-							<p> 7th Street 2nd Line, </p>
-							<p> Melbourne City, Australia.</p>
-						</div>
-						<div class="col-md-6 footer-w3l-1">
-							<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-							<p> +080 264345 995.</p>
-							<p> +080 264345 996.</p>
-						</div>
-						<div class="clearfix"></div>
+			<div class="col-md-3 footer-wthree">
+				<h3>Office Location</h3>
+				<ul>
+					<li>UAE - Sharjah</li>
+					<li>Canada - Calgary,Alberta</li>
+					<li>India - Kolkata</li>
+					<li>Central America - El Salvador</li>
+					<li>South America - Colombia</li>
+					<li>Caribbean - Curacao</li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-agileits-w3layouts">
+				<h3>Our Links</h3>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="enquiry-cart.php">Enquiry Cart</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-w3-agileits">
+				<h3>Select Language</h3>
+				<ul>
+					<li>
+						<div id="google_translate_element"></div>
+						<script>
+							function googleTranslateElementInit() {
+								new google.translate.TranslateElement({
+									pageLanguage: 'en',
+									includedLanguages: 'ar,zh-CN,fr,de,ja,ko,pl,ru,es,bn,en'
+								}, 'google_translate_element');
+							}
+						</script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="footer-w3-agile">
+			<div class="col-md-6 w3l-footer-top">
+				<!--<h3>Newsletter</h3>
+                <form action="#" method="post" class="newsletter">
+                    <input class="email" type="email" placeholder="Your email..." required="">
+                    <input type="submit" class="submit" value="">
+                </form>-->
+				<div class="footer-agile margin-top-none">
+					<div class="col-md-6 footer-w3-1">
+						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+						<p> Saj'aa Industrial Area,</p>
+						<p> P.O.Box: 43977 Sharjah, UAE.</p>
 					</div>
+					<div class="col-md-6 footer-w3l-1">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+						<p> +971 50 762 8077.</p>
+						<!--<p> +080 264345 996.</p>-->
+					</div>
+					<div class="clearfix"></div>
 				</div>
-				<div class="col-md-6 w3ls-social-icons">
-					<h3>Follow Us</h3>
-					<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-					<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-					<a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
-					<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-				<div class="clearfix"></div>
 			</div>
-			<div class="copy-right-agile">
-				<p>© 2017 Kingdom Lubricants. All rights reserved | Design by <a href="http://w3layouts.com/">.</a></p>
+			<div class="col-md-6 w3ls-social-icons">
+				<!--<h3>Follow Us</h3>-->
+				<a target="_blank" title="Facebook" class="facebook" href="https://www.facebook.com/kingdomlubricantsllc/"><i class="fa fa-facebook"></i></a>
+				<a target="_blank" title="Twitter" class="twitter" href="https://twitter.com/kingdomlubes"><i class="fa fa-twitter"></i></a>
+				<a target="_blank" title="Google+" class="google" href="https://plus.google.com/112710682635027108452"><i class="fa fa-google-plus"></i></a>
+				<a target="_blank" title="LinkedIn" class="linkedin" href="https://www.linkedin.com/in/kingdom-lubricants-2326b2142/"><i class="fa fa-linkedin"></i></a>
 			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="copy-right-agile">
+			<p>&copy; <script>
+					document.write(((new Date()).getFullYear()).toString());
+				</script> Kingdom Lubricants. All rights reserved | Developed by <a href="http://aztechcorps.com/">AztechCorps</a></p>
 		</div>
 	</div>
+</div>
 	<!-- //footer -->
 	<!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>

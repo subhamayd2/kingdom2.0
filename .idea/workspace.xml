@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c6b6460-1a5b-495f-91d4-122bc248bf43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/teamk1.JPG" afterPath="$PROJECT_DIR$/images/teamk1.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grease-lubricants.php" afterPath="$PROJECT_DIR$/Grease-lubricants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automotive-lubricants.php" afterPath="$PROJECT_DIR$/automotive-lubricants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base-oil.php" afterPath="$PROJECT_DIR$/base-oil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitumen-lubricants.php" afterPath="$PROJECT_DIR$/bitumen-lubricants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enquiry-cart.php" afterPath="$PROJECT_DIR$/enquiry-cart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/industrial-lubricants.php" afterPath="$PROJECT_DIR$/industrial-lubricants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speciality-lubricants.php" afterPath="$PROJECT_DIR$/speciality-lubricants.php" />
     </list>
     <ignored path="kingdom2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="463" column="98" selection-start-line="463" selection-start-column="98" selection-end-line="463" selection-end-column="98" />
+            <state relative-caret-position="-7164">
+              <caret line="179" column="103" selection-start-line="179" selection-start-column="103" selection-end-line="179" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -38,8 +48,8 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2772">
-              <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+            <state relative-caret-position="308">
+              <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -48,20 +58,20 @@
       <file leaf-file-name="enquiry-cart.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enquiry-cart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3366">
-              <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
+            <state relative-caret-position="660">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding>
-                <marker date="1494690123260" expanded="true" signature="391:439" placeholder="select disti... tblProducts" />
+                <marker date="1494749041125" expanded="true" signature="391:439" placeholder="select disti... tblProducts" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9592">
-              <caret line="436" column="10" selection-start-line="350" selection-start-column="4" selection-end-line="436" selection-end-column="10" />
+            <state relative-caret-position="3740">
+              <caret line="170" column="99" selection-start-line="170" selection-start-column="99" selection-end-line="170" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -70,10 +80,10 @@
       <file leaf-file-name="automotive-lubricants.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automotive-lubricants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8734">
-              <caret line="397" column="27" selection-start-line="397" selection-start-column="27" selection-end-line="397" selection-end-column="27" />
+            <state relative-caret-position="748">
+              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
               <folding>
-                <marker date="1494695956733" expanded="true" signature="130:212" placeholder="select * fro... tblProducts" />
+                <marker date="1494749041020" expanded="true" signature="130:212" placeholder="select * fro... tblProducts" />
               </folding>
             </state>
           </provider>
@@ -82,10 +92,10 @@
       <file leaf-file-name="Grease-lubricants.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Grease-lubricants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4114">
-              <caret line="187" column="25" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
+            <state relative-caret-position="440">
+              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
               <folding>
-                <marker date="1494690123075" expanded="true" signature="116:198" placeholder="select * fro... tblProducts" />
+                <marker date="1494749040708" expanded="true" signature="116:198" placeholder="select * fro... tblProducts" />
               </folding>
             </state>
           </provider>
@@ -94,11 +104,23 @@
       <file leaf-file-name="industrial-lubricants.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/industrial-lubricants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4114">
-              <caret line="187" column="29" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="29" />
+            <state relative-caret-position="572">
+              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
               <folding>
-                <marker date="1494690122907" expanded="true" signature="131:213" placeholder="select * fro... tblProducts" />
-                <marker date="1494690122907" expanded="true" signature="14935:15578" placeholder="{...}" />
+                <marker date="1494749040923" expanded="true" signature="131:213" placeholder="select * fro... tblProducts" />
+                <marker date="1494749040923" expanded="true" signature="16023:16666" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-oil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-oil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+              <folding>
+                <marker date="1494749040829" expanded="true" signature="118:200" placeholder="select * fro... tblProducts" />
               </folding>
             </state>
           </provider>
@@ -107,22 +129,10 @@
       <file leaf-file-name="bitumen-lubricants.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitumen-lubricants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4092">
-              <caret line="186" column="25" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
+            <state relative-caret-position="682">
+              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
               <folding>
-                <marker date="1494690122531" expanded="true" signature="117:199" placeholder="select * fro... tblProducts" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4202">
-              <caret line="191" column="29" selection-start-line="191" selection-start-column="29" selection-end-line="191" selection-end-column="29" />
-              <folding>
-                <marker date="1494690123151" expanded="true" signature="224:303" placeholder="select * fro... tblProducts" />
+                <marker date="1494749041187" expanded="true" signature="117:199" placeholder="select * fro... tblProducts" />
               </folding>
             </state>
           </provider>
@@ -131,10 +141,10 @@
       <file leaf-file-name="speciality-lubricants.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/speciality-lubricants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4114">
-              <caret line="187" column="25" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
+            <state relative-caret-position="-7296">
+              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
               <folding>
-                <marker date="1494690122616" expanded="true" signature="120:202" placeholder="select * fro... tblProducts" />
+                <marker date="1494749041282" expanded="true" signature="120:202" placeholder="select * fro... tblProducts" />
               </folding>
             </state>
           </provider>
@@ -163,17 +173,17 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/style2.css" />
         <option value="$PROJECT_DIR$/js/map.js" />
+        <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/automotive-lubricants.php" />
         <option value="$PROJECT_DIR$/base-oil.php" />
         <option value="$PROJECT_DIR$/bitumen-lubricants.php" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/enquiry-cart.php" />
+        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/Grease-lubricants.php" />
         <option value="$PROJECT_DIR$/industrial-lubricants.php" />
-        <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/speciality-lubricants.php" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/automotive-lubricants.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -364,12 +374,12 @@
       <workItem from="1494611233072" duration="1058000" />
       <workItem from="1494659361906" duration="9308000" />
       <workItem from="1494680912931" duration="8228000" />
-      <workItem from="1494742043497" duration="34000" />
+      <workItem from="1494742043497" duration="2755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78447000" />
+    <option name="totallyTimeSpent" value="81168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1929" height="1038" extended-state="0" />
@@ -610,6 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -663,104 +674,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="332" column="10" selection-start-line="332" selection-start-column="10" selection-end-line="332" selection-end-column="10" />
+          <folding>
+            <marker date="1494748914565" expanded="true" signature="224:303" placeholder="select * fro... tblProducts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automotive-lubricants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding>
+            <marker date="1494749041020" expanded="true" signature="130:212" placeholder="select * fro... tblProducts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base-oil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="186" column="25" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
+        <state relative-caret-position="616">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding>
+            <marker date="1494749040829" expanded="true" signature="118:200" placeholder="select * fro... tblProducts" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitumen-lubricants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4092">
-          <caret line="186" column="25" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
+        <state relative-caret-position="682">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
           <folding>
-            <marker date="1494690122531" expanded="true" signature="117:199" placeholder="select * fro... tblProducts" />
+            <marker date="1494749041187" expanded="true" signature="117:199" placeholder="select * fro... tblProducts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enquiry-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <marker date="1494749041125" expanded="true" signature="391:439" placeholder="select disti... tblProducts" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="126" column="29" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+        <state relative-caret-position="308">
+          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enquiry-cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
-          <folding>
-            <marker date="1494690123260" expanded="true" signature="391:439" placeholder="select disti... tblProducts" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Grease-lubricants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4114">
-          <caret line="187" column="25" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
+        <state relative-caret-position="440">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
           <folding>
-            <marker date="1494690123075" expanded="true" signature="116:198" placeholder="select * fro... tblProducts" />
+            <marker date="1494749040708" expanded="true" signature="116:198" placeholder="select * fro... tblProducts" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/industrial-lubricants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4114">
-          <caret line="187" column="29" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="29" />
+        <state relative-caret-position="572">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
           <folding>
-            <marker date="1494690122907" expanded="true" signature="131:213" placeholder="select * fro... tblProducts" />
-            <marker date="1494690122907" expanded="true" signature="14935:15578" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4202">
-          <caret line="191" column="29" selection-start-line="191" selection-start-column="29" selection-end-line="191" selection-end-column="29" />
-          <folding>
-            <marker date="1494690123151" expanded="true" signature="224:303" placeholder="select * fro... tblProducts" />
+            <marker date="1494749040923" expanded="true" signature="131:213" placeholder="select * fro... tblProducts" />
+            <marker date="1494749040923" expanded="true" signature="16023:16666" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/speciality-lubricants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4114">
-          <caret line="187" column="25" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
+        <state relative-caret-position="-7296">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
           <folding>
-            <marker date="1494690122616" expanded="true" signature="120:202" placeholder="select * fro... tblProducts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9592">
-          <caret line="436" column="10" selection-start-line="350" selection-start-column="4" selection-end-line="436" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automotive-lubricants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8734">
-          <caret line="397" column="27" selection-start-line="397" selection-start-column="27" selection-end-line="397" selection-end-column="27" />
-          <folding>
-            <marker date="1494695956733" expanded="true" signature="130:212" placeholder="select * fro... tblProducts" />
+            <marker date="1494749041282" expanded="true" signature="120:202" placeholder="select * fro... tblProducts" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="463" column="98" selection-start-line="463" selection-start-column="98" selection-end-line="463" selection-end-column="98" />
+        <state relative-caret-position="-7164">
+          <caret line="179" column="103" selection-start-line="179" selection-start-column="103" selection-end-line="179" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="170" column="99" selection-start-line="170" selection-start-column="99" selection-end-line="170" selection-end-column="99" />
           <folding />
         </state>
       </provider>
